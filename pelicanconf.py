@@ -33,3 +33,10 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+#THEME = '../nice-blog'
+#SIDEBAR_DISPLAY = ['about', 'categories', 'tags', 'archieves']
+#SIDEBAR_ABOUT = "Lo"
+#THEME = 'simple'
+THEME = '../pelican-themes/aboutwilson'
+AUTHOR = "Seyoung Jeong"
