@@ -2,9 +2,11 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Seyoung Jeong (seyoungjeong@gmail.com)'
+AUTHOR = u'Seyoung Jeong'
 SITENAME = u'Coding Badly'
-SITEURL = ''
+SITEURL = 'http://codingbadly.github.io'
+#SITEURL = 'http://localhost:8000/'
+DISPLAY_PAGES_ON_MENU = True
 
 PATH = 'content'
 
@@ -22,11 +24,10 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
+SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/seyoung/'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
@@ -38,5 +39,6 @@ DEFAULT_PAGINATION = 10
 #SIDEBAR_DISPLAY = ['about', 'categories', 'tags', 'archieves']
 #SIDEBAR_ABOUT = "Lo"
 #THEME = 'simple'
-THEME = '../pelican-themes/aboutwilson'
-AUTHOR = "Seyoung Jeong"
+THEME = '../pelican-themes/elegant'
+PLUGIN_PATHS = ['../pelican-plugins']
+PLUGINS = [ "sitemap", "plantuml" ]
