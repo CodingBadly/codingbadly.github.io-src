@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Seyoung Jeong'
 SITENAME = u'Coding Badly'
-SITEURL = 'http://codingbadly.github.io'
-#SITEURL = 'http://localhost:8000/'
+#SITEURL = 'http://codingbadly.github.io'
+SITEURL = 'http://localhost:8000/'
 DISPLAY_PAGES_ON_MENU = True
 
 PATH = 'content'
@@ -38,7 +38,7 @@ DEFAULT_PAGINATION = 10
 #THEME = '../nice-blog'
 #SIDEBAR_DISPLAY = ['about', 'categories', 'tags', 'archieves']
 #SIDEBAR_ABOUT = "Lo"
-#THEME = 'simple'
-THEME = '../pelican-themes/elegant'
+THEME = 'simple'
+#THEME = '../pelican-themes/elegant'
 PLUGIN_PATHS = ['../pelican-plugins']
 PLUGINS = [ "sitemap", "plantuml" ]
