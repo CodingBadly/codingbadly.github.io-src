@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Seyoung Jeong'
 SITENAME = u'Coding Badly'
-#SITEURL = 'http://codingbadly.github.io'
-SITEURL = 'http://localhost:8000/'
+SITEURL = 'http://codingbadly.github.io'
+#SITEURL = 'http://localhost:8000/'
 DISPLAY_PAGES_ON_MENU = True
 
 PATH = 'content'
