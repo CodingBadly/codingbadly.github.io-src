@@ -2,7 +2,7 @@ Title: Short note to understand 4-way EAPOL handshake
 Date: 2017-05-17
 Modified:
 Category: WiFi
-Tags: WiFi, Eapol, 802.11i
+Tags: WiFi, 802.11i
 Slug: 
 Authors: 
 Summary: 
